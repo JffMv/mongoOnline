@@ -16,14 +16,15 @@ public class User {
     @Setter
     @Getter
     private String name;
-    @Setter
-    @Getter
-    private String dateBorn;
+
     @Setter
     @Getter
     private String career;
+    @Setter
+    @Getter
+    private String dateBorn;
 
-    public User(String id, String name, String dateBorn, String career) {
+    public User(String id, String name, String career, String dateBorn) {
         this.id = id;
         this.name = name;
         this.dateBorn = dateBorn;
